@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="Course with both knowledge check and test"
@@ -8,7 +8,6 @@
   MasterPage="/Content/Resources/TemplatePages/Course-Topics.flmsp"
   ConditionTagExpression="include[Default.CombinationCourseOnly or Default.KnowledgeCheck or Default.OnlineOnly or Default.Test], exclude[Default.KnowledgeCheckOnly or Default.PrintOnly or Default.TestOnly]"
   ShowMadCapBacklink="true"
-  MasterToc="/Project/TOCs/Online-TOC.fltoc"
   ELearningToolbarSkin="/Project/Skins/eLearning.flskn"
   LmsStandard="SCORM_2004"
   CourseTrackingType="Use Test Result"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="Course with knowledge check only"
@@ -8,7 +8,6 @@
   MasterPage="/Content/Resources/TemplatePages/Course-Topics.flmsp"
   ConditionTagExpression="include[Default.KnowledgeCheck or Default.KnowledgeCheckOnly or Default.OnlineOnly], exclude[Default.CombinationCourseOnly or Default.PrintOnly or Default.Test or Default.TestOnly]"
   ShowMadCapBacklink="true"
-  MasterToc="/Project/TOCs/Online-TOC.fltoc"
   ELearningToolbarSkin="/Project/Skins/eLearning.flskn"
   LmsStandard="SCORM_2004"
   Skin="(none)"
